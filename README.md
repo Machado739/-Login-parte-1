@@ -17,8 +17,7 @@ El proyecto sigue la siguiente estructura de directorios:
     - `auth`: Carpeta con la plantilla de la página de inicio de sesión.
 - `env`: Carpeta del entorno virtual para las dependencias del proyecto.
 
-## 
-Posibles Dificultades
+## Dificultades
 Durante el desarrollo de esta práctica, podrías enfrentar algunas dificultades comunes:
 
 Manejo de Formularios en Flask-WTF: Asegúrate de comprender cómo funcionan los formularios en Flask-WTF y cómo vincularlos con las rutas de Flask.
