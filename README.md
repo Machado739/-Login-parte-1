@@ -17,26 +17,7 @@ El proyecto sigue la siguiente estructura de directorios:
     - `auth`: Carpeta con la plantilla de la página de inicio de sesión.
 - `env`: Carpeta del entorno virtual para las dependencias del proyecto.
 
-## Configuración y Ejecución
-Crea y activa un entorno virtual:
-bash
-Copy code
-cd practica-login-flask
-python -m venv env
-source env/bin/activate  
-# Para sistemas basados en Unix
-Instala las dependencias:
-
-bash
-Copy code
-pip install -r requirements.txt
-Ejecuta la aplicación:
-
-bash
-Copy code
-python src/app.py
-Abre tu navegador y visita http://127.0.0.1:5000/ para ver la aplicación en acción.
-
+## 
 Posibles Dificultades
 Durante el desarrollo de esta práctica, podrías enfrentar algunas dificultades comunes:
 
