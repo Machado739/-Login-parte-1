@@ -24,51 +24,51 @@ El proyecto sigue la siguiente estructura de directorios:
 
    ```bash
    git clone https://github.com/Machado739/-login-parte-1.git
-Entra al Directorio del Proyecto:
+### Entra al Directorio del Proyecto:
 
 Cambia al directorio del proyecto con el siguiente comando:
 
--bash
--Copy code
--cd practica-login-flask
-Crea y Activa un Entorno Virtual:
+- bash
+- Copy code
+- cd practica-login-flask
+### Crea y Activa un Entorno Virtual:
 
-Crea un entorno virtual para el proyecto. En la terminal, ejecuta:
+### Crea un entorno virtual para el proyecto. En la terminal, ejecuta:
 
--bash
--Copy code
--python -m venv env
-Luego, activa el entorno virtual:
+- bash
+- Copy code
+- python -m venv env
+### Luego, activa el entorno virtual:
 
-En sistemas basados en Unix:
+### En sistemas basados en Unix:
 
--bash
--Copy code
--source env/bin/activate
-En sistemas Windows:
+- bash
+- Copy code
+- source env/bin/activate
+### En sistemas Windows:
 
--bash
--Copy code
--.\env\Scripts\activate
-Instala las Dependencias:
+- bash
+- Copy code
+- .\env\Scripts\activate
+### Instala las Dependencias:
 
-Instala las dependencias del proyecto usando el siguiente comando:
+### Instala las dependencias del proyecto usando el siguiente comando:
 
--bash
--Copy code
--pip install -r requirements.txt
-Ejecuta la Aplicación:
+- bash
+- Copy code
+- pip install -r requirements.txt
+### Ejecuta la Aplicación:
 
-Inicia la aplicación con el siguiente comando:
+### Inicia la aplicación con el siguiente comando:
 
--bash
--Copy code
--python src/app.py
-Abre tu Navegador:
+- bash
+- Copy code
+- python src/app.py
+### Abre tu Navegador:
 
--Abre tu navegador web y visita http://127.0.0.1:5000/ para ver la aplicación en funcionamiento.
+- Abre tu navegador web y visita http://127.0.0.1:5000/ para ver la aplicación en funcionamiento.
 
--Ahora deberías ver la página de inicio de sesión. Puedes probar el inicio de sesión con los usuarios de prueba o personalizar la aplicación según tus necesidades.
+- Ahora deberías ver la página de inicio de sesión. Puedes probar el inicio de sesión con los usuarios de prueba o personalizar la aplicación según tus necesidades.
 
 ## Dificultades
 Durante el desarrollo de esta práctica, podrías enfrentar algunas dificultades comunes:
