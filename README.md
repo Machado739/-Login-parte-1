@@ -32,34 +32,34 @@ Cambia al directorio del proyecto con el siguiente comando:
 - Copy code
 - cd practica-login-flask
 ### Crea y Activa un Entorno Virtual:
-
-### Crea un entorno virtual para el proyecto. En la terminal, ejecuta:
+Crea un entorno virtual para el proyecto. En la terminal, ejecuta:
 
 - bash
 - Copy code
 - python -m venv env
 ### Luego, activa el entorno virtual:
 
-### En sistemas basados en Unix:
+ En sistemas basados en Unix:
 
 - bash
 - Copy code
 - source env/bin/activate
-### En sistemas Windows:
+
+ En sistemas Windows:
 
 - bash
 - Copy code
 - .\env\Scripts\activate
 ### Instala las Dependencias:
 
-### Instala las dependencias del proyecto usando el siguiente comando:
+Instala las dependencias del proyecto usando el siguiente comando:
 
 - bash
 - Copy code
 - pip install -r requirements.txt
 ### Ejecuta la Aplicación:
 
-### Inicia la aplicación con el siguiente comando:
+Inicia la aplicación con el siguiente comando:
 
 - bash
 - Copy code
