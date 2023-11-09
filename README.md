@@ -18,14 +18,13 @@ El proyecto sigue la siguiente estructura de directorios:
 - `env`: Carpeta del entorno virtual para las dependencias del proyecto.
 
 ## Configuración y Ejecución
-
-
 Crea y activa un entorno virtual:
 bash
 Copy code
 cd practica-login-flask
 python -m venv env
-source env/bin/activate  # Para sistemas basados en Unix
+source env/bin/activate  
+# Para sistemas basados en Unix
 Instala las dependencias:
 
 bash
