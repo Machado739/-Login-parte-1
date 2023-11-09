@@ -54,9 +54,11 @@ Crea un entorno virtual para el proyecto. En la terminal, ejecuta:
 
 Instala las dependencias del proyecto usando el siguiente comando:
 
-- bash
-- Copy code
-- pip install -r requirements.txt
+Flask==2.0.1
+Flask-Login==0.5.0
+Flask-WTF==0.15.1
+Flask-MySQLdb==0.2.0
+
 ### Ejecuta la Aplicación:
 
 Inicia la aplicación con el siguiente comando:
