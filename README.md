@@ -19,12 +19,8 @@ El proyecto sigue la siguiente estructura de directorios:
 
 ## Configuración y Ejecución
 
-1. Clona este repositorio:
 
-   ```bash
-   git clone https://github.com/tu-usuario/practica-login-flask.git
 Crea y activa un entorno virtual:
-
 bash
 Copy code
 cd practica-login-flask
@@ -41,3 +37,14 @@ bash
 Copy code
 python src/app.py
 Abre tu navegador y visita http://127.0.0.1:5000/ para ver la aplicación en acción.
+
+Posibles Dificultades
+Durante el desarrollo de esta práctica, podrías enfrentar algunas dificultades comunes:
+
+Manejo de Formularios en Flask-WTF: Asegúrate de comprender cómo funcionan los formularios en Flask-WTF y cómo vincularlos con las rutas de Flask.
+
+Implementación de Funcionalidades de Login: Implementar la lógica de autenticación y manejo de sesiones puede ser desafiante. Consulta la documentación de Flask-Login para obtener orientación.
+
+Diseño y Estilos: Integrar estilos personalizados y utilizar Bootstrap puede requerir ajustes y experimentación para lograr el aspecto deseado.
+
+Estructura del Proyecto: Organizar tu proyecto de manera efectiva puede ser crucial. Asegúrate de entender la estructura de directorios y cómo Flask maneja las plantillas.
