@@ -16,6 +16,59 @@ El proyecto sigue la siguiente estructura de directorios:
   - `templates`: Carpeta que contiene las plantillas HTML.
     - `auth`: Carpeta con la plantilla de la página de inicio de sesión.
 - `env`: Carpeta del entorno virtual para las dependencias del proyecto.
+## Cómo Ejecutar la Aplicación
+
+1. **Descarga el Código Fuente:**
+
+   Clona este repositorio en tu máquina local. Abre la terminal y ejecuta el siguiente comando:
+
+   ```bash
+   git clone https://github.com/tu-usuario/practica-login-flask.git
+Entra al Directorio del Proyecto:
+
+Cambia al directorio del proyecto con el siguiente comando:
+
+bash
+Copy code
+cd practica-login-flask
+Crea y Activa un Entorno Virtual:
+
+Crea un entorno virtual para el proyecto. En la terminal, ejecuta:
+
+bash
+Copy code
+python -m venv env
+Luego, activa el entorno virtual:
+
+En sistemas basados en Unix:
+
+bash
+Copy code
+source env/bin/activate
+En sistemas Windows:
+
+bash
+Copy code
+.\env\Scripts\activate
+Instala las Dependencias:
+
+Instala las dependencias del proyecto usando el siguiente comando:
+
+bash
+Copy code
+pip install -r requirements.txt
+Ejecuta la Aplicación:
+
+Inicia la aplicación con el siguiente comando:
+
+bash
+Copy code
+python src/app.py
+Abre tu Navegador:
+
+Abre tu navegador web y visita http://127.0.0.1:5000/ para ver la aplicación en funcionamiento.
+
+Ahora deberías ver la página de inicio de sesión. Puedes probar el inicio de sesión con los usuarios de prueba o personalizar la aplicación según tus necesidades.
 
 ## Dificultades
 Durante el desarrollo de esta práctica, podrías enfrentar algunas dificultades comunes:
